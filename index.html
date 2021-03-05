@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link type="text/css" rel="stylesheet" href="stylesheet.css">
+	<title>Reservia</title>
+</head>
+<body>
+ <div id="bloc_page">
+  	<header>
+    	<P>
+			<img src="logoreservia.svg" alt="logo" id="logo" />
+    	</P>
+ 	</header>
+
+ 	<nav> 
+ 	   			<ul>
+    			<a href="#Hébergements" id="ancrehebergement">Hébergements</a> <!-- ancre vers la partie hébergements-->
+    			<a href="#Activités">Activités</a> <!-- ancre vers la partie activités-->
+    			<a href="pageinscription.html">S'inscrire</a> <!-- renvoie vers page fictive d'inscription-->
+   			</ul>
+  	</nav>
+ 
+	<section class="selection">
+		<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+		En plein centre ville ou en pleine nature
+	
+		<p class="recherche">
+			<form method = "post" action="traitement.php">
+			<img src="map-marker-alt.svg" alt="pointrepere" class="pointrepere"/>
+ 			<input type="search" id=search name="search" value="Marseille, France"onfocus/>
+ 			<input type="submit" name="submit" value="Rechercher"/>
+		</p>
+
+		<p class="filtres">
+			<form method = "post" action="traitement.php">
+				<strong>Filtres</strong>
+				<img src="money-bill-wave-solid.svg" alt="bill" class="iconefiltre"/><input type="checkbox" name="economique" id="economique"/><LABEL FOR="economique">Économique</LABEL>
+				<img src="child.svg" alt="child" class="iconefiltre"/><input type="checkbox" name="Familial" id="Familial"/><LABEL FOR="familial">Familial</LABEL>
+				<img src="heart.svg" alt="heart" class="iconefiltre"/><input type="checkbox" name="Romantique" id="Romantique"/><LABEL FOR="romantique">Romantique</LABEL>
+				<img src="dog.svg" alt="dog" class="iconefiltre"/><input type="checkbox" name="Animaux" id="Animaux"/><LABEL FOR="Animaux">Animaux autorisés</LABEL> 
+		</p><br/>
+ 
+		<p>
+			<img src="info-circle.png" alt="info" class="info"/>
+			Plus de 500 logements disponibles dans cette ville
+		</p><br/>
+ 
+
+	<section id="Hébergements">
+		<h1>Hébergements à Marseille</h1>
+			<div id="image_hebergement1">
+				<a href="pagehebergemen1.html">
+                <div id="hebergement1_description">
+                		Auberge la Cannebière<br/>
+						Nuit à partir de <strong>25€</strong><br/>
+						<img src="smallhebergement/image1.jpg" alt="chambre" class="chambre"/></a>
+                </div>
+          	</div>
+			
+		
+		 	<div id="image_hebergement2">
+                <div id="hebergement2_description">
+                	<a href="pagehebergemen2.html">
+                		Hôtel du port<br/>
+						Nuit à partir de 52€<br/>
+						<img src="smallhebergement/image2.jpg" alt="chambre" class="chambre"/></a>
+                </div>
+        	</div>
+			
+			<div id="image_hebergement3">
+                <div id="hebergement3_description">
+                	<a href="pagehebergement3.html">
+                		Hôtel Les mouettes<br/>
+						Nuit à partir de 76€<br/>
+						<img src="smallhebergement/image3.jpg" alt="chambre" class="chambre"/></a>
+                </div>
+        	</div>
+
+        	<div id="image_hebergement4">
+                <div id="hebergement4_description">
+                	<a href="pagehebergement4.html">
+                		Hôtel de la mer<br/>
+						Nuit à partir de 46€<br/>
+						<img src="smallhebergement/image4.jpg" alt="chambre" class="chambre"/></a>
+                </div>
+        	</div>
+
+        	<div id="image_hebergement5">
+                <div id="hebergement5_description">
+                		<a href="pagehebergement5.html">
+                		Auberge Le panier<br/>
+						Nuit à partir de <strong>23€</strong><br/>
+						<img src="smallhebergement/image5.jpg" alt="chambre" class="chambre"/></a>
+               	</div>
+  			</div>
+
+                <div id="image_hebergement6">
+                <div id="hebergement6_description">
+                		<a href="pagehebergement6.html">
+                		Hôtel chez Amina<br/>
+						Nuit à partir de 96€<br/>
+						<img src="smallhebergement/image6.jpg" alt="chambre" class="chambre"/></a>
+                </div>
+        	</div>
+        	
+
+		<a href="page2.html">Afficher plus</a><!-- renvoie vers la deuxieme page fictive -->
+	</section>
+
+	<section>
+		<aside>
+			<H1>Les plus populaires</H1>
+
+		<div>
+			<img src="smallhebergement/aside1.jpg" alt="chambre" class="chambre"/>
+		</div>
+
+		<div>
+			<img src="smallhebergement/aside2.jpg" alt="chambre" class="chambre"/>
+		</div>
+
+		<div>
+			<img src="smallhebergement/aside3.jpg" alt="chambre" class="chambre"/>
+		</div>
+	</aside>
+
+	<section id="Activités">
+		<h1>Activités à Marseille</h1>
+		<div>
+			<img src="" alt="" class=""/>
+		</div>
+
+		<div>
+			<img src="" alt="" class=""/>
+		</div>
+
+		<div>
+			<img src="" alt="" class=""/>
+		</div>
+
+		<div>
+			<img src="" alt="" class=""/>
+		</div>
+
+		<div>
+			<img src="" alt="" class=""/>
+		</div>
+
+		<div>
+			<img src="" alt="" class=""/>
+		</div>
+
+		Afficher plus
+	</section>
+
+	<footer>
+		<div>
+		A propos<br/>
+		Fonctionnement du site<br/>
+		Conditions générales de vente<br/>
+		Données et confidentialité <br/>
+		</div>
+
+		<div>
+		Nos hébergements<br/>
+		Charte qualité<br/>
+		Soumettre votre hotel<br/>
+		</div>
+
+
+		<div>
+		Assistance<br/>
+		Centre d'aide<br/>
+		Nous contacter<br/>
+		</div>
+	</footer>
+ </div>
+</body>
+
+</html>

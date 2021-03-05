@@ -1,0 +1,78 @@
+/* Définition des polices personnalisées */
+
+body
+{
+	font-family: 'raleway','Trebuchet MS', Arial, sans-serif;
+}
+
+#bloc_page /* resolution de la page*/
+{
+    width: 1500px
+    height: 1966px
+}
+
+#logo
+{
+	width:100px;
+}
+
+nav /* pour placer le menu de navigation à droite*/
+{
+	text-align: right
+}
+#ancrehebergement
+{
+	border-top:2px blue solid;
+	padding-top:40px;
+	color: #0065fc;
+	font-style: normal;
+}
+
+#economique,#Familial,#Romantique,#Animaux /* masquage des cases des checkboxes dans la partie filtre*/
+{
+	visibility: hidden;
+}
+
+.iconefiltre
+{
+		
+		width:16px;
+		border: #deebff solid;
+		border-radius:50%;
+		padding:5px 5px 5px 5px;
+		width:18px;
+		height:18px;
+		background-color:#deebff;
+}
+
+.pointrepere
+{
+	width:16px;
+	background-color:#F2F2F2;
+}
+
+.info
+{
+	width:25px;
+	font-size:22px;
+}
+
+#Hébergements
+{
+	 border: #F2F2F2 solid;
+	 border-radius:2%;
+	 background-color: #F2F2F2;
+ 	 color: #000000;
+}
+
+
+#hebergement1_description, #hebergement2_description, #hebergement3_description,#hebergement4_description,#hebergement5_description,#hebergement6_description
+{
+
+}
+.chambre
+{
+	width:230px;
+
+}
+
