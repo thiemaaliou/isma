@@ -1,0 +1,201 @@
+/* Définition des polices personnalisées */
+
+body
+{
+	font-family: 'Raleway','Trebuchet MS', Arial, sans-serif;
+	width: 100%
+	margin:auto;
+}
+
+#logo
+{
+	width:100px;
+}
+
+a /* pour changer la mise en forme des liens*/
+{
+	visibility: none;
+	text-decoration: none;
+	color: black; 
+}
+strong
+{
+	font-weight: bold;
+}
+nav /* pour placer le menu de navigation à droite*/
+{
+	text-align: right;
+}
+
+#ancrehebergement /* pour définir la nouvelle mise en forme l'ancre hebergement*/
+{
+	border-top:2px#0065fc solid;
+	padding-top:40px;
+	color: #0065fc;
+}
+
+#ancreactivites
+{
+	color: grey
+}
+
+#inscription
+{
+	font-weight: bold;
+	color: #0065fc;
+}
+
+.pointrepere
+{
+vertical-align:top;
+margin:0;
+padding:0; 
+height:20px;
+border: solid #F2F2F2 10px;
+	border-radius:15% 0% 0% 15%;
+	background-color:#F2F2F2;
+}
+
+#submitbutton
+{
+vertical-align:top;
+margin:0;
+	height:40px;
+	border: solid #0065fc 2px;
+	border-radius: 0 15% 15% 0%;
+	background-color:#0065fc;
+	color: white;	
+}
+
+#searcharea
+{
+vertical-align:top;
+margin:0;
+padding:0; 
+width:200px;
+height:40px;
+	border: none;
+	border-top:solid #F2F2F2 1px;
+	border-bottom: solid #F2F2F2 1px;
+}
+
+#economique,#familial,#romantique,#animaux /* masque les cases des checkboxes dans la partie filtre*/
+{
+	width:0px;
+	visibility: hidden;
+	vertical-align: center;
+}
+
+.iconefiltre
+{
+		width:16px;
+		vertical-align: center;
+		border: #deebff solid;
+		border-radius:50%;
+		padding:5px 5px 5px 5px;
+		width:18px;
+		height:18px;
+		background-color:#deebff;
+}
+
+.filtres
+{
+	display:inline-flex;
+}
+
+#filtreeconomie,#filtrefamille,#filtreromantique,#filtreanimaux
+{
+width: 200px; 
+display: inline-flex;
+align-items: center;
+border: #F2F2F2 solid;
+border-radius:50px;
+}
+
+span:hover
+{
+color: blue;
+}
+
+#info
+{
+	width: 20px;
+}
+
+.etoile
+{
+	width:20px;
+}
+
+#hebergements
+{
+display: flex;
+align-content:row;
+justify-content:space-between;
+}
+
+.listehebergements
+{
+	 display:flex;
+	 flex-wrap: wrap;
+	 align-content: flex-start;
+	 align-items: space-between;
+	 padding:5%; 
+	 width:50%;
+	 background-color:#F2F2F2;
+	 border: #F2F2F2 solid;
+	 border-radius:15px;
+	 color: #000000;
+}
+
+
+#hebergement1_description, #hebergement2_description, #hebergement3_description,#hebergement4_description,#hebergement5_description,#hebergement6_description
+{
+background-color:white;
+width:250px;
+border:solid white;
+border-radius:0 0 10% 10%;
+}
+
+.chambre
+{
+	 width:200px;
+	 border: #fff solid 4px;
+	 border-radius:10%;
+	 box-shadow:2px 2px 2px 2px #e7e7e7;
+}
+
+#chart
+{
+width:15px; 
+}
+
+#populaires
+{
+	width:35%;
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	align-content:flex-end;
+	background-color:#e7e7e7;
+	border:#e7e7e7 solid;
+	border-radius:15px;
+}
+
+.chambrepopulaire
+{
+	width:150px;
+	 border: #fff solid 4px;
+	 border-radius:10%;
+	 box-shadow:2px 2px 2px 2px#e7e7e7;
+}
+
+
+footer
+{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	padding:25px;
+	background-color:#e7e7e7;
+}
