@@ -24,19 +24,19 @@
 			</p>
 		</nav>
 
-		<section class="selection"> 
-			<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-			En plein centre ville ou en pleine nature
+			<section class="selection"> 
+				<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+				En plein centre ville ou en pleine nature
 
-			<p id="searchbox">
-				<form method = "post" action="traitement.php">
-					<img src="images/icones/map-marker-alt.svg" alt="pointrepere" class="pointrepere"/>
-					<input type="search" id=searcharea name="searcharea" value="Marseille, France" onfocus/>
-					<input type="submit" id="submitbutton" name="submit" value="Rechercher"/>
-				</form>
-			</p>
+				<p id="searchbox">
+					<form method = "post" action="traitement.php">
+						<img src="images/icones/map-marker-alt.svg" alt="pointrepere" class="pointrepere"/>
+						<input type="search" id=searcharea name="searcharea" value="Marseille, France" onfocus/>
+						<input type="submit" id="submitbutton" name="submit" value="Rechercher"/>
+					</form>
+				</p>
 
-			<p class="filtres"> 
+				<p class="filtres">
 					<form method = "post" action="traitement.php">
 						<strong>Filtres &ensp; </strong>
 						<div id="filtreeconomie">
@@ -52,13 +52,14 @@
 							<img src="images/icones/dog.svg" alt="dog" class="iconefiltre"/><input type="checkbox" name="Animaux" id="animaux"/><LABEL FOR="animaux"><span><strong>Animaux autorisés </strong></span></LABEL>
 						</div>
 					</form>
-			</p><br/>
+				</p><br/>
 
 				<p>
 					<img src="images/icones/info-circle.svg" alt="info" id="info"/> Plus de 500 logements disponibles dans cette ville
 				</p><br/>
+			</section>
 
-				<section id="sectionhebergements">
+			<section id="sectionhebergements">
 
 					<div class="listehebergements"> 
 						<h2 class="titrehebergement">Hébergements à Marseille</h2>
@@ -159,14 +160,14 @@
 						</p>
 					</div>
 
-					<div id="populaires">
+					<div id="sectionpopulaires">
 					<aside>
 						
 						<H2 class="titrepopulaire">Les plus populaires <img src="images/icones/chart-line-solid.svg" alt="chart-line" id="chart"/></H2> <br/>
 
-						<div id="chambre_populaire1" >
+						<div id="cartechambre_populaire1" >
 								<a href="pagehebergemenpopulaire1.html">
-									<img src="images/smallhebergement/aside1.jpg" alt="chambre" class="chambrepopulaire"/>
+									<img src="images/smallhebergement/aside1.jpg" alt="chambre" class="imagechambrepopulaire"/>
 								</a>
 
 								<div id="populaire1_description">
@@ -183,11 +184,11 @@
 
 						</div>
 
-						<div id=chambre_populaire2 >
+						<div id=cartechambre_populaire2 >
 							<a href="pagehebergemenpopulaire2.html">
-								<img src="images/smallhebergement/aside2.jpg" alt="chambre" class="chambrepopulaire"/>
+								<img src="images/smallhebergement/aside2.jpg" alt="chambre" class="imagechambrepopulaire"/>
 							</a>
-								<div id="populaire2_description">
+								<div id="cartepopulaire2_description">
 									<h4>Au coeur de l'eau Chambres d'hôtes</h4>
 									Nuit à partir de 71 <strong>€</strong>
 									<div class="etoilepopulaire2">
@@ -201,9 +202,9 @@
 								</div>
 						</div>
 
-						<div id=chambre_populaire3> 
+						<div id=cartechambre_populaire3> 
 							<a href="pagehebergemenpopulaire3.html">
-								<img src="images/smallhebergement/aside3.jpg" alt="chambre" class="chambrepopulaire"/>
+								<img src="images/smallhebergement/aside3.jpg" alt="chambre" class="imagechambrepopulaire"/>
 							</a>
 								<div id="populaire3_description">
 									<h4>Hôtel tout Bleu et Blanc</h4>
@@ -219,9 +220,9 @@
 						</div>							
 					</aside>
 					</div>
-				</section>
+		 	</section>
 
-				<section >
+			<section>
 					<div id="listeactivites"> 
 						<h2 class="titreactivites">Activités à Marseille</h2>
 							<div id="colonne1">
@@ -266,38 +267,43 @@
 									</div>
 								</div>
 							
-								<div id="carteactivite6">									
+								<div id="carteactivite6">							
 									<img src="images/mediumactivites/activite6.jpg" alt="parclongchampsmarseille" class="image_activites6"/>
 									<div class="activite_description">
-									<strong>Parc Longchamps<strong>
+									<strong>Parc Longchamps</strong>
 									</div>
 								</div>
 							</div>
 
 					</div>
-				</section>
+			</section>
 
-				<footer>
+			<footer>
 					<div id="apropos">
 						<strong>A propos</strong><br><br/>
+						<p>
 						Fonctionnement du site<br><br/>
 						Conditions générales de vente<br><br/>
 						Données et confidentialité<br><br/>
+						</p>
 					</div>
 
 					<div id="noshebergements">
 						<strong>Nos hébergements</strong><br><br/>
+						<p>
 						Charte qualité<br><br/>
 						Soumettre votre hôtel<br><br/>
+						</p>
 					</div>
 
 					<div id="assistance">
 						<strong>Assistance</strong><br><br/>
+						<p>
 						Centre d'aide<br><br/>
 						Nous contacter<br><br/>
+						</p>
 					</div>
-				</footer>
-		</div>
-	</body>
-
-	</html>
+			</footer>>
+	</div>
+</body>
+</html>
