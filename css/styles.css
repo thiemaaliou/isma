@@ -281,32 +281,59 @@ align-items: flex-end;
 	height:100%;
 }
 
-#carteactivite1,#carteactivite4 
+#carteactivite1,#carteactivite4,#carteactivite2,#carteactivite3,#carteactivite5,#carteactivite6
 {
-	height:80%;
- 	background-color: #fff;
+	background-color: #fff;
 	border: hidden;
-	border-radius: 10%;
+	border-radius: 25px;
 	box-shadow: 2px 2px 2px 2px #e7e7e7;
 	overflow: hidden;
 	margin-right: 20px;
-}
-
-#carteactivite2,#carteactivite3,#carteactivite5,#carteactivite6
-{
-	height:50%;
- 	background-color: #fff;
-	border: hidden;
-	border-radius: 10%;
-	box-shadow: 2px 2px 2px 2px #e7e7e7;
-	overflow: hidden;
-	margin-right:20px;
 	margin-bottom:30px;
 }
 
-.image_activites1,.image_activites6,.image_activites2,.image_activites3,.image_activites4,.image_activites5
+#carteactivite1,#carteactivite4 
 {
-max-width: 300px;
+	height:80%;
+}
+#carteactivite2,#carteactivite3,#carteactivite5,#carteactivite6
+{
+	height:50%;
+ }
+
+.image_activites1,.image_activites4
+{
+width: 300px;
+height: 450px;
+object-fit:cover;
+
+}
+
+.image_activites2
+{
+width: 300px;
+max-height: 210px;
+object-fit:cover;
+}
+
+.image_activites3
+{
+width: 300px;
+max-height: 160px;
+object-fit:cover;
+}
+.image_activites5
+{
+width: 300px;
+max-height: 170px;
+object-fit:cover;
+}
+
+.image_activites6
+{
+width: 300px;
+max-height: 200px;
+object-fit:cover;
 }
 
 .activite_description
