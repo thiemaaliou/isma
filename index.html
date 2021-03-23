@@ -19,12 +19,12 @@
 		<nav>
 			<p>
 				<a href="#Hébergements" id="ancrehebergement">Hébergements</a> <!-- ancre vers la partie hébergements-->
-				<a href="#Activités" id="ancreactivites">Activités</a> <!-- ancre vers la partie activités-->
+				<a href="#listeactivites" id="ancreactivites">Activités</a> <!-- ancre vers la partie activités-->
 				<a href="#" id="inscription">S'inscrire</a> <!-- renvoie vers page fictive d'inscription-->
 			</p>
 		</nav>
 
-			<section class="selection"> 
+			<section class="selection">
 				<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 				En plein centre ville ou en pleine nature
 
@@ -38,7 +38,10 @@
 
 				<p class="filtres">
 					<form method = "post" action="traitement.php">
-						<strong>Filtres &ensp; </strong>
+						<div class="titre-filtrer">
+								<strong>Filtres &ensp; </strong>
+						</div>
+
 						<div id="filtreeconomie">
 							<img src="images/icones/money-bill-wave-solid.svg" alt="bill" class="iconefiltre"/><input type="checkbox" name="economique" id="economique"/><LABEL FOR="economique"><span> <strong>Économique</strong></span></LABEL>
 						</div>
@@ -61,7 +64,7 @@
 
 			<section id="sectionhebergements">
 
-					<div class="listehebergements"> 
+					<div class="listehebergements">
 						<h2 class="titrehebergement">Hébergements à Marseille</h2>
 
 						<div id="image_hebergement1">
@@ -162,7 +165,7 @@
 
 					<div id="sectionpopulaires">
 					<aside>
-						
+
 						<H2 class="titrepopulaire">Les plus populaires <img src="images/icones/chart-line-solid.svg" alt="chart-line" id="chart"/></H2> <br/>
 
 						<div id="cartechambre_populaire1" >
@@ -202,13 +205,13 @@
 								</div>
 						</div>
 
-						<div id=cartechambre_populaire3> 
+						<div id=cartechambre_populaire3>
 							<a href="pagehebergemenpopulaire3.html">
 								<img src="images/smallhebergement/aside3.jpg" alt="chambre" class="imagechambrepopulaire"/>
 							</a>
 								<div id="populaire3_description">
 									<h4>Hôtel tout Bleu et Blanc</h4>
-									Nuit à partir de 68 <strong>€</strong> 
+									Nuit à partir de 68 <strong>€</strong>
 									<div class="etoilepopulaire3">
 										<img src="images/icones/star-filled.svg" alt="etoilebleu" class="etoile"/>
 										<img src="images/icones/star-filled.svg" alt="etoilebleu" class="etoile"/>
@@ -216,14 +219,14 @@
 										<img src="images/icones/star-filled.svg" alt="etoilebleu" class="etoile"/>
 										<img src="images/icones/star-empty.svg" alt="etoilegrise" class="etoile"/>
 									</div>
-								</div>						
-						</div>							
+								</div>
+						</div>
 					</aside>
 					</div>
 		 	</section>
 
 			<section>
-					<div id="listeactivites"> 
+					<div id="listeactivites">
 						<h2 class="titreactivites">Activités à Marseille</h2>
 							<div id="colonne1">
 								<div id="carteactivite1">
@@ -241,7 +244,7 @@
 									<strong>Fort de Pomègues</strong>
 									</div>
 								</div>
-								
+
 								<div id="carteactivite3">
 									<img src="images/mediumactivites/activite3.jpg" alt="ilesfrioulmarseille" class="image_activites3"/>
 									<div class="activite_description">
@@ -257,8 +260,8 @@
 									<strong>Parc National des Calanques</strong>
 									</div>
 								</div>
-							</div>	
-							
+							</div>
+
 							<div id="colonne4">
 								<div id="carteactivite5">
 									<img src="images/mediumactivites/activite5.jpg" alt="notredamedelagardemarseille" class="image_activites5"/>
@@ -266,8 +269,8 @@
 									<strong>Notre-Dame-de-la-Garde</strong>
 									</div>
 								</div>
-							
-								<div id="carteactivite6">							
+
+								<div id="carteactivite6">
 									<img src="images/mediumactivites/activite6.jpg" alt="parclongchampsmarseille" class="image_activites6"/>
 									<div class="activite_description">
 									<strong>Parc Longchamps</strong>
